@@ -24,14 +24,14 @@ for (i = 0; i < 10; i++){
 }
 printf ("\n\n");
 
-// Obtenção da resposta do aluno
+// ObtenÃ§Ã£o da resposta do aluno
 printf ("Aluno %d\n", a+1);
 for (i = 0; i < 10; i++){
     printf ("A resposta da questao %d: ", i+1);
     scanf ("%s", &resposta[i]);   
 }
 
-// Impressão de tabela
+// ImpressÃ£o de tabela
 printf ("\n\nQuestao\tRespostaGabaritoSituacao\n");
 for (i = 0; i < 10; i++){
     if (resposta[i] == gabarito[i]){
